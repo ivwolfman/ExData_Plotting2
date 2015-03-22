@@ -16,5 +16,5 @@ Emissions <- emissionsByYear$Emissions / 1e6
 png("plot1.png")
 barplot(Emissions, names.arg = emissionsByYear$year, 
         main = "Total PM2.5 Emissions in the United States",
-        xlab = "Year", ylab = "PM2.5 Emissions (MTons)")
+        xlab = "Year", ylab = "PM2.5 Emissions (Megatons)")
 dev.off()
